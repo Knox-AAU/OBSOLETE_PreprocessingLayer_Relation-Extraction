@@ -1,2 +1,2 @@
-# Preprocessing-Relation-Extraction
+# Preprocessing_Relation-Extraction
 Group C - Relation Extraction 2023
