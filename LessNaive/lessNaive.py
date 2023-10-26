@@ -1,4 +1,6 @@
-ontology_file_path = '../DBpedia_Ont.ttl'
+from openie import POST_corenlp
+import json
+ontology_file_path = '/DBpedia_Ont.ttl'
 
 
 # Function to extract relations based on the specified pattern
@@ -17,8 +19,11 @@ def extract_specific_relations():
             i += 1
             
     return sorted(relations)  # Returning the relations as a sorted list
-
+        
 # Extracting the relations based on the specified pattern
-specific_relations = extract_specific_relations()
-print(specific_relations)
-# specific_relations[:10], len(specific_relations)  # Displaying the first 10 relations and the total number of relations
+# specific_relations = extract_specific_relations()
+# print(specific_relations)
+res = json.loads(POST_corenlp("Barack is married to Michelle"))
+
+for triple in res["sentences"][0]["openie"]:
+    print(f"subject: {triple['subject']}, relation: {triple['relation']}, object: {triple['object']}")
