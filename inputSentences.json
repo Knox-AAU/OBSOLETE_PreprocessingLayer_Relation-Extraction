@@ -3,7 +3,7 @@
         "fileName": "path/to/Artikel.txt",
         "sentences": [
             {
-                "sentence": "Barrack Obama is married to Michelle Obama",
+                "sentence": "Barrack Obama is married to Michelle Obama.",
                 "entityMentions": [
                     { "name": "Barrack Obama", "startIndex": 0, "endIndex": 12 },
                     { "name": "Michelle Obama", "startIndex": 27, "endIndex": 40 }

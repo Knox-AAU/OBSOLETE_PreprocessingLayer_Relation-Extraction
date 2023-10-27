@@ -19,10 +19,11 @@ relations = [
 ]
 
 # Opening JSON file 
-f = open('inputSentences.json')
+f = open('../inputSentences.json')
    
 # returns JSON object as a dictionary 
 data = json.load(f)
+
 
 def find_best_match(token):
     "Finds the best match given a token and a set of relations"

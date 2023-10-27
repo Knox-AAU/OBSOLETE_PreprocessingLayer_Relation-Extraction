@@ -1,10 +1,10 @@
 import requests
+import urllib.parse
 
-
-def POST_corenlp(sentence):
+def POST_corenlp(sentences):
     url = "https://corenlp.run/?properties=%7B%22annotators%22%3A%20%22tokenize%2Cssplit%2Copenie%22%2C%20%22date%22%3A%20%222023-10-26T15%3A50%3A03%22%7D&pipelineLanguage=en"
 
-    payload = sentence.replace(" ", "%20")
+    payload = "".join([" " + s for s in sentences]) #join array of sentences to one long string.
     headers = {
     'authority': 'corenlp.run',
     'accept': 'application/json, text/javascript, */*; q=0.01',
