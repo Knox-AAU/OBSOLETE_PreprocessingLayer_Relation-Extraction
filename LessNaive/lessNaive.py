@@ -3,6 +3,8 @@ import json
 ontology_file_path = '../DBpedia_Ont.ttl'
 import urllib.parse
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
+from rapidfuzz.distance import Levenshtein
+
 
 def extract_specific_relations():
     "Function to extract relations based on the specified pattern"
@@ -28,7 +30,8 @@ def find_best_ontology_match(api_relation, ontology_relations):
     highest_similarity = 0
 
     for ontology_relation in ontology_relations:
-        similarity = NormalizedLevenshtein().similarity(api_relation.lower(), ontology_relation.lower())
+        # similarity = NormalizedLevenshtein().similarity(api_relation.lower(), ontology_relation.lower())
+        similarity = Levenshtein.normalized_similarity(api_relation.lower(), ontology_relation.lower(), weights=(1,1,4))
         highest_similarity = similarity if similarity > highest_similarity else highest_similarity
         best_ontology_match = ontology_relation if similarity == highest_similarity else best_ontology_match
 
@@ -44,10 +47,11 @@ def find_ontology_relations(relations, sentences):
                 #subject and object fround by corenlp is same as group B
                 sentence["relations"].append({
                     "subject": triple["subject"],
-                    # "relation": triple["relation"], #needs to map to closest macth in ontology
                     "relation": find_best_ontology_match(triple["relation"], relations), #needs to map to closest macth in ontology
                     "object": triple["object"]
                     })
+            else:
+                print(f"subject '{triple['subject']}' and objcet '{triple['object']}' not found in ems:{valid_entity_mentions}")
 
 def reconstruct_sentence_from_tokens(tokens):
     reconstructed_sentence = ""
@@ -76,8 +80,14 @@ def do_relation_extraction(data):
         sentences[urllib.parse.quote(reconstructed_sentence)]["openie"] = sentence["openie"]
 
     find_ontology_relations(ontology_relations, sentences)
-    print(sentences)
+    relations = []
+    for key, val in sentences.items():
+        relations.extend(val["relations"])
 
-do_relation_extraction(json.load(open("../inputSentences.json")))   
+    tuples = [(r["subject"], r["relation"], r["object"]) for r in relations]
+    print(tuples)
+
+if __name__ == "__main__":
+    do_relation_extraction(json.load(open("../inputSentences.json")))   
 
 
