@@ -1,27 +1,13 @@
 from openie import POST_corenlp
 import json
+import sys 
 ontology_file_path = '../DBpedia_Ont.ttl'
 import urllib.parse
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
 from rapidfuzz.distance import Levenshtein
-
-
-def extract_specific_relations():
-    "Function to extract relations based on the specified pattern"
-    relations = set()
-    with open(ontology_file_path, 'r', encoding='utf-8', errors='ignore') as file:
-        lines = file.readlines()
-        i = 0
-        for i, line in enumerate(lines):
-            line = line.strip()
-            # Check if the line starts with a colon and the next lines contain the specified pattern
-            if line.startswith(":") and i+1 < len(lines) and "a rdf:Property, owl:ObjectProperty ;" in lines[i+1]:
-                relation = line.split()[0]  # Extracting the relation name
-                relation = relation[1:] # Remove colon
-                relations.add(relation)
-            i += 1
-            
-    return sorted(relations) 
+sys.path.insert(0, '../')
+from output import format_output
+from getRel import extract_specific_relations
 
 
 def find_best_ontology_match(api_relation, ontology_relations):
@@ -66,9 +52,8 @@ def reconstruct_sentence_from_tokens(tokens):
 
     return reconstructed_sentence
 
-
 def do_relation_extraction(data):
-    ontology_relations = extract_specific_relations()
+    ontology_relations = extract_specific_relations(ontology_file_path)
     sentences = {}
     for f in data:
         for s in f["sentences"]:
@@ -85,7 +70,7 @@ def do_relation_extraction(data):
         relations.extend(val["relations"])
 
     tuples = [(r["subject"], r["relation"], r["object"]) for r in relations]
-    print(tuples)
+    format_output(tuples)
 
 if __name__ == "__main__":
     do_relation_extraction(json.load(open("../inputSentences.json")))   

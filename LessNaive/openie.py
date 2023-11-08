@@ -21,6 +21,6 @@ def POST_corenlp(sentences):
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
     'x-requested-with': 'XMLHttpRequest'
     }
-
+    
     response = requests.request("POST", url, headers=headers, data=payload)
     return response.text
