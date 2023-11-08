@@ -1,11 +1,11 @@
-from openie import POST_corenlp
 import json
 import sys 
 ontology_file_path = '../DBpedia_Ont.ttl'
 import urllib.parse
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
 from rapidfuzz.distance import Levenshtein
-sys.path.insert(0, '../')
+sys.path.append('../')
+from LessNaive.openie import POST_corenlp
 from output import format_output
 from getRel import extract_specific_relations
 
@@ -58,7 +58,6 @@ def do_relation_extraction(data):
     for f in data:
         for s in f["sentences"]:
             sentences[urllib.parse.quote(s["sentence"])] = s
-
     openie = json.loads(POST_corenlp(list(sentences.keys())))
     for sentence in openie["sentences"]:
         reconstructed_sentence = reconstruct_sentence_from_tokens(sentence["tokens"])

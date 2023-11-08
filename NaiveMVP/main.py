@@ -2,7 +2,7 @@ import json
 import strsimpy
 import sys
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
-sys.path.insert(0, '../')
+sys.path.append('../')
 from output import format_output
 from getRel import extract_specific_relations
 
