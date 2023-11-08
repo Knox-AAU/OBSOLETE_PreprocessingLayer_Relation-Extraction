@@ -1,34 +1,26 @@
 import json
 import strsimpy
+import sys
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
+sys.path.insert(0, '../')
+from output import format_output
+from getRel import extract_specific_relations
 
+ontology_file_path = '../DBpedia_Ont.ttl'
 threshold = 0.35
 normalized_levenshtein = NormalizedLevenshtein()
 
-#An abstraction for the relations from the ontology
-relations = [
-    "married to",
-    "located in",
-    "is in",
-    "spouse of",
-    "husband of",
-    "wife of",
-    "CEO of",
-    "author of",
-    "painted by"
-]
-
-# Opening JSON file 
-f = open('../inputSentences.json')
-   
-# returns JSON object as a dictionary 
-data = json.load(f)
+# Opening JSON file
+with open('../inputSentences.json', 'r') as f:
+    # returns JSON object as a dictionary 
+    data = json.load(f)
 
 
 def find_best_match(token):
     "Finds the best match given a token and a set of relations"
     best_relation_match = ""
     highest_similarity = 0
+    relations = extract_specific_relations(ontology_file_path)
 
     for relation in relations:
         similarity = normalized_levenshtein.similarity(token, relation)
@@ -87,7 +79,7 @@ def parse_data(data):
     return output
 
 def main():
-    print(parse_data(data))
+    format_output(parse_data(data))
 
 if __name__ == "__main__":
     main()
