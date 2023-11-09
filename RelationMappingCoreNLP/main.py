@@ -98,7 +98,6 @@ def string_comparison(ontology_relations, stanford_relation):
 def main(input_sentences):
     ontology_relations = extract_specific_relations(ontology_file_path)
     sentences = {}
-    triples = []
     
     for file in input_sentences:
         for sentence in file["sentences"]:
