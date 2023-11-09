@@ -1,11 +1,11 @@
 import json
 import sys 
+from openie import POST_corenlp
 ontology_file_path = '../DBpedia_Ont.ttl'
 import urllib.parse
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
 from rapidfuzz.distance import Levenshtein
 sys.path.append('../')
-from LessNaive.openie import POST_corenlp
 from output import format_output
 from getRel import extract_specific_relations
 
@@ -37,7 +37,7 @@ def find_ontology_relations(relations, sentences):
                     "object": triple["object"]
                     })
             else:
-                print(f"subject '{triple['subject']}' and objcet '{triple['object']}' not found in ems:{valid_entity_mentions}")
+                print(f"subject '{triple['subject']}' and object '{triple['object']}' not found in ems:{valid_entity_mentions}")
 
 def reconstruct_sentence_from_tokens(tokens):
     reconstructed_sentence = ""
