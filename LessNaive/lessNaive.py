@@ -1,7 +1,7 @@
 import json
 import sys 
 from openie import POST_corenlp
-ontology_file_path = '../DBpedia_Ont.ttl'
+ontology_file_path = 'DBpedia_Ont.ttl'
 import urllib.parse
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
 from rapidfuzz.distance import Levenshtein

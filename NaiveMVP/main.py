@@ -6,7 +6,7 @@ sys.path.append('../')
 from output import format_output
 from getRel import extract_specific_relations
 
-ontology_file_path = '../DBpedia_Ont.ttl'
+ontology_file_path = 'DBpedia_Ont.ttl'
 threshold = 0.35
 normalized_levenshtein = NormalizedLevenshtein()
 
