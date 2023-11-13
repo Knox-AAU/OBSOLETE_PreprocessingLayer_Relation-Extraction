@@ -2,16 +2,15 @@ import json
 import strsimpy
 import sys
 from strsimpy.normalized_levenshtein import NormalizedLevenshtein
-sys.path.insert(0, '../')
 from output import format_output
 from getRel import extract_specific_relations
 
-ontology_file_path = '../DBpedia_Ont.ttl'
-threshold = 0.35
+ontology_file_path = 'DBpedia_Ont.ttl'
+threshold = 0
 normalized_levenshtein = NormalizedLevenshtein()
 
 # Opening JSON file
-with open('../inputSentences.json', 'r') as f:
+with open('inputSentences.json', 'r') as f:
     # returns JSON object as a dictionary 
     data = json.load(f)
 
@@ -37,7 +36,7 @@ def filter_tokens(tokens, entity_mentions):
         for token in tokens:
             if token not in entity_mention["name"]:
                 filtered_tokens.append(token)
-    
+
     return filtered_tokens
 
 def find_best_triple(sentence):
@@ -66,6 +65,7 @@ def parse_data(data):
 
         for sentence_object in sentences_in_data:
             tokens = sentence_object["sentence"].split(" ")
+            print(f"got tokens {tokens}")
             entity_mentions = sentence_object["entityMentions"]
             
             sentence = {
@@ -75,6 +75,7 @@ def parse_data(data):
             }
             
             output.append(find_best_triple(sentence))
+            print(f"Current output: {output}")
             
     return output
 
