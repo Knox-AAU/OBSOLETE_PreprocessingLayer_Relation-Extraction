@@ -3,56 +3,88 @@ import xml.etree.ElementTree as ET
 from LessNaive.lessNaive import do_relation_extraction
 from NaiveMVP.main import parse_data
 import re
+from getRel import extract_specific_relations
+import datetime
+
+ontology_file_path = 'DBpedia_Ont.ttl'
+
+def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 3, length = 100, fill = '█', printEnd = "\r"):
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print(f'\r{prefix} |{bar}| {percent}% {suffix}', end = printEnd)
+    if iteration == total: 
+        print()
 
 
 def convert_testdata_to_input_format():
-    sentences = []
-    tree = ET.parse('Evaluation/testdataMini.xml')
+    objs = []
+    tree = ET.parse('Evaluation/testdata.xml')
     root = tree.getroot()
     expected_output = []
     for entry in root.findall('.//entry'):
-        for lex in entry.findall('lex'):
-            sentence_obj = {"sentence": lex.text, "entityMentions": []}
-            ems = set()
-            for otriple in entry.findall('modifiedtripleset/mtriple'):
-                triple_string = otriple.text.replace("_", " ")
-                triple_string = re.sub(r'\([^)]*\)', '', triple_string)
-                ems.add(triple_string.split("|")[0].strip())
-                expected_output.append(triple_string.split("|")[1].strip())
-                ems.add(triple_string.split("|")[2].strip())
+        sentence = entry.findall('lex')[0].text
+        ems = set()
+        triples = []
+        for otriple in entry.findall("modifiedtripleset/mtriple"):
+            triple_string = re.sub(r'\([^)]*\)', '', otriple.text.replace("_", " "))
+            triple = tuple(list(map(lambda x: x.strip(), triple_string.split("|"))))
+            triples.append(triple)
 
-            sentence_obj["entityMentions"] = [{"name": em, "startIndex": 0, "endIndex": 0 } for em in ems]
-            sentences.append(sentence_obj)
-
-    input_obj = [
-        {
-            "fileName": "path/to/Artikel.txt",
-            "sentences": sentences
-        }
-    ]
-    return input_obj, expected_output
+        objs.append({
+            "sentence": sentence,
+            "triples": triples
+        })
+    return objs
 
 def main():
-    input, expected_output = convert_testdata_to_input_format()
+    input_objs = convert_testdata_to_input_format()
     print("testdata converted successfully")
+    ontology_relations = extract_specific_relations(ontology_file_path)
+    
+    
     solutions_to_test = {
         #"less_naive": do_relation_extraction, 
         "naive": parse_data
     }
-
+    
     for name, solution in solutions_to_test.items():
+        print(f"Running solution {name}")
+        total_triples = 0
         hits = 0
-        print(f"Running solution {name}...")
-        tuples = solution(input)
-        print(f"Tuples from solution to test: {tuples}")
+        dt = datetime.datetime.now()
+        printProgressBar(0, len(input_objs), prefix = 'Progress:', suffix = 'Complete', length = 50)
+        for i, obj in enumerate(input_objs):
+            sentence = obj["sentence"]
+            expected_triples = obj["triples"]
+            total_triples += len(expected_triples)
+            ems = set()
+            for triple in expected_triples:
+                ems.add(triple[0])
+                ems.add(triple[2])
+
+            entity_mentions = [{ "name": em, "startIndex": 0, "endIndex": 0 } for em in ems]    
+            input_obj = [{
+                "fileName": "path/to/Artikel.txt",
+                "sentences": [
+                    {
+                        "sentence": sentence,
+                        "entityMentions": entity_mentions
+                    },
+                ]
+            }]
+            
+            res = solution(input_obj, ontology_relations)
+            for triple in res:
+                if triple in expected_triples:
+                    hits +=1
+            eta = ((datetime.datetime.now()-dt).total_seconds()/60)/((i+1)/len(input_objs))
+            progress_suffix = f"Complete. Timeusage: {(datetime.datetime.now()-dt).total_seconds()/60} minutes. Eta {eta} minutes."
+            printProgressBar(i + 1, len(input_objs), prefix = 'Progress:', suffix = progress_suffix, length = 50)
         
-        print(f"Calculating measurements...")
-        for i, tuple in enumerate(tuples):
-            if tuple[1] == expected_output[i]:
-                print(f"Correct relation mapped! {tuple}, {expected_output[i]}")
-                hits += 1
-
-
+        print(f"Solution {name} finished. Hit {hits}/{total_triples}. Hit percentage: {hits/total_triples}%")
+            
+        
 
 
 

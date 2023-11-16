@@ -72,5 +72,1128 @@
       </modifiedtripleset>
       <lex lang="en" lid="1">Alan B. Miller Hall, in Virginia, USA, was designed by Robert A.M. Stern. The address of the hall is "101 Ukrop Way" and the current tenants are the Mason School of Business.</lex>
     </entry>
+    <entry category="Artist" eid="Id6" shape="(X (X) (X (X)))" shape_type="mixed" size="3">
+      <originaltripleset>
+        <otriple>Liselotte_Grschebina | birthPlace | Karlsruhe</otriple>
+        <otriple>Liselotte_Grschebina | deathPlace | Israel</otriple>
+        <otriple>Israel | ethnicGroup | Arab_citizens_of_Israel</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Liselotte_Grschebina | birthPlace | Karlsruhe</mtriple>
+        <mtriple>Liselotte_Grschebina | deathPlace | Israel</mtriple>
+        <mtriple>Israel | ethnicGroup | Arab_citizens_of_Israel</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Liselotte Grschebina was born in Karlsruhe and died in Israel. Ethnic groups in Israel include Arabs.</lex>
+    </entry>
+    <entry category="Film" eid="Id7" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>It's_Great_to_Be_Young_(1956_film) | editing | Max_Benedict</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>It's_Great_to_Be_Young_(1956_film) | editing | Max_Benedict</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">It’s Great to Be Young is a film edited by Max Benedict.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id8" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Turkey | leaderTitle | President</otriple>
+        <otriple>Nurhan_Atasoy | birthPlace | Turkey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turkey | leaderTitle | President</mtriple>
+        <mtriple>Nurhan_Atasoy | birthPlace | Turkey</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nurhan Atasoy was born in Turkey led by the President.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id9" shape="(X (X) (X) (X (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | manager | Vica</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | manager | Vica</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Agremiação Sportiva Arapiraquense managed by Vica has 17000 members and play in the Campeonato Brasileiro Série C league which is from Brazil.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id10" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Bananaman | creator | Steve_Bright</otriple>
+        <otriple>Bananaman | network | BBC</otriple>
+        <otriple>Bananaman | firstAired | "1983-10-03"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bananaman | creator | Steve_Bright</mtriple>
+        <mtriple>Bananaman | broadcastedBy | BBC</mtriple>
+        <mtriple>Bananaman | firstAired | "1983-10-03"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bananaman first aired on the 10th of March, 1983 and was created by Steve Bright. It was broadcast by the BBC.</lex>
+    </entry>
+    <entry category="Film" eid="Id11" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>English_Without_Tears | cinematography | Bernard_Knowles</otriple>
+        <otriple>English_Without_Tears | writer | Terence_Rattigan</otriple>
+        <otriple>English_Without_Tears | musicComposer | Nicholas_Brodszky</otriple>
+        <otriple>English_Without_Tears | producer | Anatole_de_Grunwald</otriple>
+        <otriple>English_Without_Tears | director | Harold_French</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>English_Without_Tears | cinematography | Bernard_Knowles</mtriple>
+        <mtriple>English_Without_Tears | writer | Terence_Rattigan</mtriple>
+        <mtriple>English_Without_Tears | musicComposer | Nicholas_Brodszky</mtriple>
+        <mtriple>English_Without_Tears | producer | Anatole_de_Grunwald</mtriple>
+        <mtriple>English_Without_Tears | director | Harold_French</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The movie English Without Tears is written by Terence Rattigan and directed by Harold French. Anatole de Grunwald is the producer and Bernard Knowles is the cinematographer. Nicholas Brodszky was a composer of the songs.</lex>
+    </entry>
+    <entry category="Monument" eid="Id12" shape="(X (X) (X) (X) (X) (X (X)))" shape_type="mixed" size="6">
+      <originaltripleset>
+        <otriple>11th_Mississippi_Infantry_Monument | established | 2000</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | region | Adams_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</otriple>
+        <otriple>Adams_County,_Pennsylvania | north | Cumberland_County,_Pennsylvania</otriple>
+        <otriple>11th_Mississippi_Infantry_Monument | country | "United States"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11th_Mississippi_Infantry_Monument | established | 2000</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | category | Contributing_property</mtriple>
+        <mtriple>Adams_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania</mtriple>
+        <mtriple>11th_Mississippi_Infantry_Monument | country | "United States"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The 11th Mississippi Infantry Monument, built in 2000, is placed in the municipality of Gettysburg in Pennsylvania which is in Adams County, USA. The 11th Mississippi Infantry Monument is classified as a Contributing Property. Cumberland county, Pennsylvania is to the north of Adams County.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id13" shape="(X (X) (X (X) (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>United_States | leader | John_Roberts</otriple>
+        <otriple>Darinka_Dentcheva | residence | United_States</otriple>
+        <otriple>United_States | leader | Joe_Biden</otriple>
+        <otriple>Darinka_Dentcheva | residence | New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leader | John_Roberts</mtriple>
+        <mtriple>Darinka_Dentcheva | residence | United_States</mtriple>
+        <mtriple>United_States | leader | Joe_Biden</mtriple>
+        <mtriple>Darinka_Dentcheva | residence | New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Within the United States Joe Biden is one of it's top officials whilst John Roberts is one of it's leaders. Darinka Dentcheva currently resides in New Jersey of the United States.</lex>
+    </entry>
+    <entry category="Film" eid="Id14" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Death_on_a_Factory_Farm | composer | Jamie_Lawrence</otriple>
+        <otriple>Death_on_a_Factory_Farm | runtime | 4980.0</otriple>
+        <otriple>Death_on_a_Factory_Farm | producer | Sarah_Teale</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Death_on_a_Factory_Farm | musicComposer | Jamie_Lawrence</mtriple>
+        <mtriple>Death_on_a_Factory_Farm | runtime | 83.0</mtriple>
+        <mtriple>Death_on_a_Factory_Farm | producer | Sarah_Teale</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Jamie Lawrence wrote music for the 83 minute film 'Death on a Factory Farm' which was produced by Sarah Teale.</lex>
+    </entry>
+    <entry category="University" eid="Id15" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>France | governmentType | Unitary_state</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>France | governmentType | Unitary_state</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The government type in France is unitary state.</lex>
+    </entry>
+    <entry category="Building" eid="Id16" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"@en</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"</mtriple>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The College of William and Mary is the owner of the Alan B. Miller Hall, located in Virginia at 101 Ukrop Way and currently occupied by the Mason School of Business.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id17" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Expect_a_Miracle | runtime | 3274.0</otriple>
+        <otriple>Expect_a_Miracle | genre | Instrumental_music</otriple>
+        <otriple>Expect_a_Miracle | subsequentWork | Afterplay_(Brian_Kelly_album)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Expect_a_Miracle | runtime | 54.56</mtriple>
+        <mtriple>Expect_a_Miracle | genre | Instrumental_music</mtriple>
+        <mtriple>Expect_a_Miracle | followedBy | Afterplay_(Brian_Kelly_album)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Expect a Miracle is an instrumental album that runs 54.56 minutes. It is followed by the album Afterplay, also by Brian Kelly.</lex>
+    </entry>
+    <entry category="Airport" eid="Id18" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Al_Asad_Airbase | operator | United_States_Air_Force</otriple>
+        <otriple>Al_Asad_Airbase | runwayLength | "3990.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force</mtriple>
+        <mtriple>Al_Asad_Airbase | runwayLength | 3990.0</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Al Asad Airbase is operated by the United States Air Force and has a runway length of 3,990.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id19" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Lady_Anne_Monson | birthDate | 1726-01-01</otriple>
+        <otriple>Lady_Anne_Monson | nationality | Kingdom_of_England</otriple>
+        <otriple>Lady_Anne_Monson | residence | India</otriple>
+        <otriple>Lady_Anne_Monson | spouse | George_Monson</otriple>
+        <otriple>Lady_Anne_Monson | field | Botany</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lady_Anne_Monson | birthDate | 1726-01-01</mtriple>
+        <mtriple>Lady_Anne_Monson | nationality | Kingdom_of_England</mtriple>
+        <mtriple>Lady_Anne_Monson | residence | India</mtriple>
+        <mtriple>Lady_Anne_Monson | spouse | George_Monson</mtriple>
+        <mtriple>Lady_Anne_Monson | professionalField | Botany</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Lady Anne Monson, an English national and botanist, was born in 1726 on January, 1. She was married to George Monson and lived in India.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id20" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Nord_(Year_of_No_Light_album) | genre | Sludge_metal</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | genre | Post-metal</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | recordLabel | Crucial_Blast</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | releaseDate | 2006-09-06</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | runtime | 58.416666666666664</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nord_(Year_of_No_Light_album) | genre | Sludge_metal</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | genre | Post-metal</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | recordLabel | Crucial_Blast</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | releaseDate | 2006-09-06</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | runtime | 58.41</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The album Nord by Year of No Light released on September 6, 2006 with runtime of 58 minutes and 41 seconds is in post-metal and sludge metal genre. Its record label is Crucial Blast.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id21" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Alan_Shepard | birthDate | "1923-11-18"^^xsd:date</otriple>
+        <otriple>Alan_Shepard | nationality | United_States</otriple>
+        <otriple>Alan_Shepard | deathPlace | California</otriple>
+        <otriple>Alan_Shepard | selection | 1959</otriple>
+        <otriple>Alan_Shepard | birthPlace | New_Hampshire</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | birthDate | "1923-11-18"</mtriple>
+        <mtriple>Alan_Shepard | nationality | United_States</mtriple>
+        <mtriple>Alan_Shepard | deathPlace | California</mtriple>
+        <mtriple>Alan_Shepard | selectedByNasa | 1959</mtriple>
+        <mtriple>Alan_Shepard | birthPlace | New_Hampshire</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Born in New Hampshire on November 18th 1923 and dying in California, Alan Shepard was a US national who was selected by NASA in 1959.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id22" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Olga_Bondareva | birthName | Olga Nikolaevna Bondareva</otriple>
+        <otriple>Olga_Bondareva | almaMater | Leningrad_State_University</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Olga_Bondareva | birthName | "Olga Nikolaevna Bondareva"</mtriple>
+        <mtriple>Olga_Bondareva | almaMater | Leningrad_State_University</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Olga Bondareva, born Olga Nikolaevna Bondareva, is an alumnus of Leningrad State University.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id23" shape="(X (X) (X (X) (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Nurhan_Atasoy | nationality | Turkish_people</otriple>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+        <otriple>Nurhan_Atasoy | birthPlace | Turkey</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nurhan_Atasoy | nationality | Turkish_people</mtriple>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+        <mtriple>Nurhan_Atasoy | birthPlace | Turkey</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nurhan Atasoy was born in Turkey and is of Turkish nationality. Turkey's largest city is Istanbul, and uses the Turkish Lira as its currency.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id24" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>Nurhan_Atasoy | birthDate | 1934-01-01</otriple>
+        <otriple>Nurhan_Atasoy | residence | Istanbul</otriple>
+        <otriple>Nurhan_Atasoy | citizenship | Turkey</otriple>
+        <otriple>Nurhan_Atasoy | nationality | Turkish_people</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nurhan_Atasoy | birthDate | 1934-01-01</mtriple>
+        <mtriple>Nurhan_Atasoy | residence | Istanbul</mtriple>
+        <mtriple>Nurhan_Atasoy | citizenship | Turkey</mtriple>
+        <mtriple>Nurhan_Atasoy | nationality | Turkish_people</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nurhan Atasoy (born January 1, 1934) was a Turkish citizen and national who had a residence in Istanbul.</lex>
+    </entry>
+    <entry category="Film" eid="Id25" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Death_on_a_Factory_Farm | producer | Sarah_Teale</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Death_on_a_Factory_Farm | producer | Sarah_Teale</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">"Death on a Factory Farm" was produced by Sarah Teale.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id26" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Nord_(Year_of_No_Light_album) | genre | Sludge_metal</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | artist | Year_of_No_Light</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nord_(Year_of_No_Light_album) | genre | Sludge_metal</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | artist | Year_of_No_Light</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nord is a sludge metal album by Year of No Light.</lex>
+    </entry>
+    <entry category="City" eid="Id27" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Morelos | country | Mexico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Morelos | country | Mexico</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Morelos is a state in the country or Mexico.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id28" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Nie_Haisheng | birthPlace | Zaoyang</otriple>
+        <otriple>Nie_Haisheng | birthPlace | Hubei</otriple>
+        <otriple>Nie_Haisheng | nationality | People's_Republic_of_China</otriple>
+        <otriple>Nie_Haisheng | birthDate | 1964-10-13</otriple>
+        <otriple>Nie_Haisheng | occupation | Fighter_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nie_Haisheng | birthPlace | Zaoyang</mtriple>
+        <mtriple>Nie_Haisheng | birthPlace | Hubei</mtriple>
+        <mtriple>Nie_Haisheng | nationality | People's_Republic_of_China</mtriple>
+        <mtriple>Nie_Haisheng | birthDate | 1964-10-13</mtriple>
+        <mtriple>Nie_Haisheng | occupation | Fighter_pilot</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nie Haisheng was a fighter pilot from the People's Republic of China who was born in Hubei, Zaoyang on October 13, 1964.</lex>
+    </entry>
+    <entry category="Film" eid="Id29" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)</otriple>
+        <otriple>McVeagh_of_the_South_Seas | distributor | Alliance_Films_Corporation</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | distributor | Alliance_Films_Corporation</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Alliance Films Corporation is the distributor for the film McVeagh of the South Seas which was directed by actor Harry Carey, born in 1878.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id30" shape="(X (X (X)) (X (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Lady_Anne_Monson | birthPlace | Darlington</otriple>
+        <otriple>Kingdom_of_England | foundingYear | 0010-01-01</otriple>
+        <otriple>Lady_Anne_Monson | birthPlace | Kingdom_of_England</otriple>
+        <otriple>Darlington | region | North_East_England</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lady_Anne_Monson | birthPlace | Darlington</mtriple>
+        <mtriple>Kingdom_of_England | foundingYear | 0927</mtriple>
+        <mtriple>Lady_Anne_Monson | birthPlace | Kingdom_of_England</mtriple>
+        <mtriple>Darlington | region | North_East_England</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Lady Anne Monson was born in Darlington, England which is in the North East England region. The Kingdom of England was founded in the year 927.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id31" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Squeeze_(The_Velvet_Underground_album) | previousWork | Andy_Warhol's_Velvet_Underground_Featuring_Nico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Squeeze_(The_Velvet_Underground_album) | precededBy | Andy_Warhol's_Velvet_Underground_Featuring_Nico</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Velvet Underground album Squeeze was preceded by the compilation album Andy Warhol's Velvet Underground Featuring Nico.</lex>
+    </entry>
+    <entry category="Airport" eid="Id32" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Bedford_Aerodrome | operator | MotorSport_Vision</otriple>
+        <otriple>Bedford_Aerodrome | icaoLocationIdentifier | EGBF</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision</mtriple>
+        <mtriple>Bedford_Aerodrome | icaoLocationIdentifier | EGBF</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bedford Aerodrome operated by MotorSport Vision has EGBF as its ICAO location identifier.</lex>
+    </entry>
+    <entry category="Airport" eid="Id33" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | operator | ENAIRE</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | Paracuellos_de_Jarama</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | "3499.71"^^xsd:double</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | elevation | "609.6"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | Paracuellos_de_Jarama</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel | 610.0</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Adolfo Suarez Madrid-Barajas airport is located at Paracuellos de Jarama, is operated by ENAIRE and is 610 metres above sea level. It also has a 3500 long runway.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id34" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Brandon_Carter | knownFor | Anthropic_principle</otriple>
+        <otriple>Brandon_Carter | birthDate | 1942-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brandon_Carter | knownFor | Anthropic_principle</mtriple>
+        <mtriple>Brandon_Carter | birthDate | 1942-01-01</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Brandon Carter, born on the 1st of January 1942 is well known for the Anthropic principle theory.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id35" shape="(X (X) (X (X) (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Nurhan_Atasoy | nationality | Turkish_people</otriple>
+        <otriple>Turkey | largestCity | Istanbul</otriple>
+        <otriple>Nurhan_Atasoy | birthPlace | Turkey</otriple>
+        <otriple>Turkey | currency | Turkish_lira</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nurhan_Atasoy | nationality | Turkish_people</mtriple>
+        <mtriple>Turkey | largestCity | Istanbul</mtriple>
+        <mtriple>Nurhan_Atasoy | birthPlace | Turkey</mtriple>
+        <mtriple>Turkey | currency | Turkish_lira</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nurhan Atasoy is a Turkish national born in Turkey. Turkey has its largest city as Istanbul and its currency is Turkish lira.</lex>
+    </entry>
+    <entry category="Film" eid="Id36" shape="(X (X))" shape_type="NA" size="1">
+      <originaltripleset>
+        <otriple>Super_Capers | starring | Tom_Sizemore</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Super_Capers | starring | Tom_Sizemore</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Tom Sizemore stars in Super Capers.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id37" shape="(X (X) (X (X)) (X (X) (X)))" shape_type="mixed" size="6">
+      <originaltripleset>
+        <otriple>Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Arapiraca</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</otriple>
+        <otriple>Campeonato_Brasileiro_Série_C | country | Brazil</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | capacity | "17000"^^xsd:nonNegativeInteger</otriple>
+        <otriple>Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Arapiraca</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube</mtriple>
+        <mtriple>Campeonato_Brasileiro_Série_C | country | Brazil</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000</mtriple>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Estadio Municipal Coaracy da Mata Fonseca in Arapiraca is the ground of Agremiação Sportiva Arapiraquense (which has 17000 members) that play in the Campeonato Brasileiro Série C league. Champions, The Vila Nova Futebol Clube at Campeonato Brasileiro Série C from Brazil.</lex>
+    </entry>
+    <entry category="Film" eid="Id38" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Super_Capers | starring | Michael_Rooker</otriple>
+        <otriple>Super_Capers | budget | 2000000.0</otriple>
+        <otriple>Super_Capers | writer | Ray_Griggs_(director)</otriple>
+        <otriple>Super_Capers | director | Ray_Griggs_(director)</otriple>
+        <otriple>Super_Capers | runtime | 98.0</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Super_Capers | starring | Michael_Rooker</mtriple>
+        <mtriple>Super_Capers | budget | 2000000.0</mtriple>
+        <mtriple>Super_Capers | writer | Ray_Griggs_(director)</mtriple>
+        <mtriple>Super_Capers | director | Ray_Griggs_(director)</mtriple>
+        <mtriple>Super_Capers | runtime | 98.0</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Ray Griggs wrote and directed the 98 minutes movie Super Capers which is starring Michael Rooker had a budget of $2000000.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id39" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Mermaid_(Train_song) | genre | Reggae</otriple>
+        <otriple>Mermaid_(Train_song) | producer | Espionage_(production_team)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mermaid_(Train_song) | genre | Reggae</mtriple>
+        <mtriple>Mermaid_(Train_song) | producer | Espionage_(production_team)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Train song Mermaid, produced by Espionage, is in the reggae genre.</lex>
+    </entry>
+    <entry category="University" eid="Id40" shape="(X (X) (X (X)))" shape_type="mixed" size="3">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</otriple>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | affiliations | Visvesvaraya_Technological_University</otriple>
+        <otriple>Visvesvaraya_Technological_University | city | Belgaum</otriple>
+        <otriple>Acharya_Institute_of_Technology | country | "India"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University</mtriple>
+        <mtriple>Visvesvaraya_Technological_University | city | Belgaum</mtriple>
+        <mtriple>Acharya_Institute_of_Technology | country | "India"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Acharya Institute of Technology, affiliated with Visvesvaraya Technological University, is located in Belgaum, India.</lex>
+    </entry>
+    <entry category="Monument" eid="Id41" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Azerbaijan | leaderName | Artur_Rasizade</otriple>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | leader | Artur_Rasizade</mtriple>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Baku Turkish Martyrs' Memorial is located in Azerbaijan, where Artur Rasizade was a leader.</lex>
+    </entry>
+    <entry category="Food" eid="Id42" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Bionico | course | Dessert</otriple>
+        <otriple>Bionico | country | Mexico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bionico | course | Dessert</mtriple>
+        <mtriple>Bionico | country | Mexico</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bionico, a food found in Mexico, is a dish served for dessert.</lex>
+    </entry>
+    <entry category="Artist" eid="Id43" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Aaron_Turner | instrument | Singing</otriple>
+        <otriple>Aaron_Turner | associatedBand | Twilight_(band)</otriple>
+        <otriple>Aaron_Turner | activeYearsStartYear | "1995"^^xsd:gYear</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aaron_Turner | instrument | Singing</otriple>
+        <otriple>Aaron_Turner | associatedMusicalArtist | Twilight_(band)</otriple>
+        <otriple>Aaron_Turner | activeYearsStartYear | "1995"^^xsd:gYear</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aaron_Turner | instrument | Singing</mtriple>
+        <mtriple>Aaron_Turner | associatedBand/associatedMusicalArtist | Twilight_(band)</mtriple>
+        <mtriple>Aaron_Turner | activeYearsStartYear | 1995</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Aaron Turner is a singer who started performing in 1995 and played with the band, Twilight.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id44" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Darinka_Dentcheva | influencedBy | Andrzej_Piotr_Ruszczyński</otriple>
+        <otriple>Darinka_Dentcheva | citizenship | United_States</otriple>
+        <otriple>Darinka_Dentcheva | birthDate | 1958-01-01</otriple>
+        <otriple>Darinka_Dentcheva | field | Mathematical_optimization</otriple>
+        <otriple>Darinka_Dentcheva | residence | New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Darinka_Dentcheva | influencedBy | Andrzej_Piotr_Ruszczyński</mtriple>
+        <mtriple>Darinka_Dentcheva | citizenship | United_States</mtriple>
+        <mtriple>Darinka_Dentcheva | birthDate | 1958-01-01</mtriple>
+        <mtriple>Darinka_Dentcheva | professionalField | Mathematical_optimization</mtriple>
+        <mtriple>Darinka_Dentcheva | residence | New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Darinka Dentcheva, born on the date January 1st, 1958, was influenced by Andrzej Piotr Ruszczynski in the field of Mathematical optimization and became a citizen of the United States and claims residence in the state of New Jersey.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id45" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Mermaid_(Train_song) | writer | Stargate_(production_team)</otriple>
+        <otriple>Stargate_(production_team) | associatedMusicalArtist | Michael_Jackson</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Mermaid_(Train_song) | writer | Stargate_(production_team)</otriple>
+        <otriple>Stargate_(production_team) | associatedBand | Michael_Jackson</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mermaid_(Train_song) | writer | Stargate_(production_team)</mtriple>
+        <mtriple>Stargate_(production_team) | associatedBand/associatedMusicalArtist | Michael_Jackson</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The train song Mermaid was written by the production team Stargate which had worked with musicians like Michael Jackson.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id46" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Bananaman | network | "STV"@en</otriple>
+        <otriple>Bananaman | firstAired | "1983-10-03"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bananaman | broadcastedBy | "STV"</mtriple>
+        <mtriple>Bananaman | firstAired | "1983-10-03"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bananaman, which was broadcasted by STV, was first aired on 10/03/1983.</lex>
+    </entry>
+    <entry category="Company" eid="Id47" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+        <otriple>Hypermarcas | product | Healthcare</otriple>
+        <otriple>Hypermarcas | product | Cosmetics</otriple>
+        <otriple>Hypermarcas | industry | Pharmaceuticals</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+        <mtriple>Hypermarcas | product | Healthcare</mtriple>
+        <mtriple>Hypermarcas | product | Cosmetics</mtriple>
+        <mtriple>Hypermarcas | industry | Pharmaceuticals</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Founded on January 1, 2001, Hypermarcas is a pharmaceutical company that makes healthcare products and sells cosmetics.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id48" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Nord_(Year_of_No_Light_album) | subsequentWork | Live_at_Roadburn_2008_(Year_of_No_Light_album)</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | genre | Sludge_metal</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | genre | Post-metal</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nord_(Year_of_No_Light_album) | followedBy | Live_at_Roadburn_2008_(Year_of_No_Light_album)</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | genre | Sludge_metal</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | genre | Post-metal</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Year of No Light album Nord was followed by Year of No Light's album Live at Roadburn 2008. Nord is considered sludge or post metal.</lex>
+    </entry>
+    <entry category="Film" eid="Id49" shape="(X (X (X)) (X (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>English_Without_Tears | writer | Anatole_de_Grunwald</otriple>
+        <otriple>Terence_Rattigan | deathPlace | Hamilton,_Bermuda</otriple>
+        <otriple>Anatole_de_Grunwald | deathPlace | London</otriple>
+        <otriple>English_Without_Tears | writer | Terence_Rattigan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>English_Without_Tears | writer | Anatole_de_Grunwald</mtriple>
+        <mtriple>Terence_Rattigan | deathPlace | Hamilton,_Bermuda</mtriple>
+        <mtriple>Anatole_de_Grunwald | deathPlace | London</mtriple>
+        <mtriple>English_Without_Tears | writer | Terence_Rattigan</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">English Without Tears was written by Anatole de Grunwald and Terence Rattigan. Rattigan died in London while Grunwald died in Hamilton.</lex>
+    </entry>
+    <entry category="Film" eid="Id50" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>It's_Great_to_Be_Young_(1956_film) | starring | John_Mills</otriple>
+        <otriple>John_Mills | birthDate | 1908-01-01</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>It's_Great_to_Be_Young_(1956_film) | starring | John_Mills</mtriple>
+        <mtriple>John_Mills | birthDate | 1908-01-01</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">John Mills, who was born on January 1, 1908, had a main role in the movie It's Great to Be Young.</lex>
+    </entry>
+    <entry category="Film" eid="Id51" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>McVeagh_of_the_South_Seas | imdbId | 0004319</otriple>
+        <otriple>McVeagh_of_the_South_Seas | director | Cyril_Bruce</otriple>
+        <otriple>McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)</otriple>
+        <otriple>McVeagh_of_the_South_Seas | starring | Harry_Carey_(actor_born_1878)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>McVeagh_of_the_South_Seas | imdbId | 0004319</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | director | Cyril_Bruce</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | starring | Harry_Carey_(actor_born_1878)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">McVeagh of the South Seas is a film directed by Harry Carey and Cyril Bruce. Carey was born in 1878 and he was the lead actor of the film. This movie can be found on the IMDb by inputting the Id of 0004319.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id52" shape="(X (X) (X) (X) (X) (X) (X) (X))" shape_type="sibling" size="7">
+      <originaltripleset>
+        <otriple>Mermaid_(Train_song) | recordLabel | Columbia_Records</otriple>
+        <otriple>Mermaid_(Train_song) | runtime | 3.2666666666666666</otriple>
+        <otriple>Mermaid_(Train_song) | recordLabel | Sony_Music_Entertainment</otriple>
+        <otriple>Mermaid_(Train_song) | writer | Espen_Lind</otriple>
+        <otriple>Mermaid_(Train_song) | genre | Reggae</otriple>
+        <otriple>Mermaid_(Train_song) | writer | Amund_Bjørklund</otriple>
+        <otriple>Mermaid_(Train_song) | album | California_37_(Train_album)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mermaid_(Train_song) | recordLabel | Columbia_Records</mtriple>
+        <mtriple>Mermaid_(Train_song) | runtime | 3.16</mtriple>
+        <mtriple>Mermaid_(Train_song) | recordLabel | Sony_Music_Entertainment</mtriple>
+        <mtriple>Mermaid_(Train_song) | writer | Espen_Lind</mtriple>
+        <mtriple>Mermaid_(Train_song) | genre | Reggae</mtriple>
+        <mtriple>Mermaid_(Train_song) | writer | Amund_Bjørklund</mtriple>
+        <mtriple>Mermaid_(Train_song) | album | California_37_(Train_album)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Train song Mermaid, which is in the reggae genre, was released under the record labels of Columbia Records and Sony Music Entertainment. The song featured on Train’s "California 37" album and was written by Espen Lind and Amund Bjørklund. Its length is 3:16 minutes.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id53" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Nord_(Year_of_No_Light_album) | genre | Post-metal</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | recordLabel | Crucial_Blast</otriple>
+        <otriple>Nord_(Year_of_No_Light_album) | releaseDate | 2006-09-06</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nord_(Year_of_No_Light_album) | genre | Post-metal</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | recordLabel | Crucial_Blast</mtriple>
+        <mtriple>Nord_(Year_of_No_Light_album) | releaseDate | 2006-09-06</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Year of No Light album Nord is in the post-metal genre and was released 2006-09-06 on the Crucial Blast label.</lex>
+    </entry>
+    <entry category="Building" eid="Id54" shape="(X (X) (X) (X) (X (X)))" shape_type="mixed" size="5">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | architect | Robert_A._M._Stern</otriple>
+        <otriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"@en</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+        <otriple>Alan_B._Miller_Hall | location | Virginia</otriple>
+        <otriple>Mason_School_of_Business | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | architect | Robert_A._M._Stern</mtriple>
+        <mtriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"</mtriple>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+        <mtriple>Alan_B._Miller_Hall | location | Virginia</mtriple>
+        <mtriple>Mason_School_of_Business | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Mason School of Business is located in Virginia in the United States and is based at The Alan B Miller Hall on 101 Ukrop Way. The building was designed by architect Robert A.M. Stern.</lex>
+    </entry>
+    <entry category="Food" eid="Id55" shape="(X (X) (X) (X (X) (X)))" shape_type="mixed" size="5">
+      <originaltripleset>
+        <otriple>Mexico | currency | Mexican_peso</otriple>
+        <otriple>Mexico | demonym | Mexicans</otriple>
+        <otriple>Bionico | course | Dessert</otriple>
+        <otriple>Bionico | mainIngredient | "Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins"@en</otriple>
+        <otriple>Bionico | country | Mexico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mexico | currency | Mexican_peso</mtriple>
+        <mtriple>Mexico | demonym | Mexicans</mtriple>
+        <mtriple>Bionico | course | Dessert</mtriple>
+        <mtriple>Bionico | mainIngredient | "Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins"</mtriple>
+        <mtriple>Bionico | country | Mexico</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bionico is a dessert food made from chopped fruits, sour cream, condensed milk, granola, shredded coconut and raisins. This dish can be found in Mexico, a country that is inhabited by Mexicans and uses the peso as its currency.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id56" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Nie_Haisheng | mission | Shenzhou_10</otriple>
+        <otriple>Nie_Haisheng | mission | Shenzhou_6</otriple>
+        <otriple>Nie_Haisheng | nationality | People's_Republic_of_China</otriple>
+        <otriple>Nie_Haisheng | birthDate | 1964-10-13</otriple>
+        <otriple>Nie_Haisheng | occupation | Fighter_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Nie_Haisheng | mission | Shenzhou_10</mtriple>
+        <mtriple>Nie_Haisheng | mission | Shenzhou_6</mtriple>
+        <mtriple>Nie_Haisheng | nationality | People's_Republic_of_China</mtriple>
+        <mtriple>Nie_Haisheng | birthDate | 1964-10-13</mtriple>
+        <mtriple>Nie_Haisheng | occupation | Fighter_pilot</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Nie Haisheng was born on October 13, 1964 and is from the People’s Republic of China. Haisheng worked as a fighter pilot and was apart of the Shenzhou 10 mission and also took part in the Shenzhou 6 mission.</lex>
+    </entry>
+    <entry category="Food" eid="Id57" shape="(X (X) (X) (X (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Mexico | currency | Mexican_peso</otriple>
+        <otriple>Bionico | course | Dessert</otriple>
+        <otriple>Bionico | region | Jalisco</otriple>
+        <otriple>Bionico | country | Mexico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mexico | currency | Mexican_peso</mtriple>
+        <mtriple>Bionico | course | Dessert</mtriple>
+        <mtriple>Bionico | region | Jalisco</mtriple>
+        <mtriple>Bionico | country | Mexico</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bionico is a food found in Mexico, in the region Jalisco. It is served as a dessert in the country, where the local currency is the peso.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id58" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | artist | The_Velvet_Underground</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | producer | The_Velvet_Underground</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | runtime | 13803.0</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | genre | Rock_music</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | previousWork | Squeeze_(The_Velvet_Underground_album)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | artist | The_Velvet_Underground</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | producer | The_Velvet_Underground</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | runtime | 230.05</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | genre | Rock_music</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | precededBy | Squeeze_(The_Velvet_Underground_album)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Music group the Velvet Underground released the rock album Bootleg Series Volume 1: The Quine Tapes that run for 230:05. It is produced by Velvet Underground, who also produced the previous one, Squeeze.</lex>
+    </entry>
+    <entry category="Company" eid="Id59" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>GMA_New_Media | location | GMA_Network_Center</otriple>
+        <otriple>GMA_New_Media | product | Online_Game</otriple>
+        <otriple>GMA_New_Media | location | Philippines</otriple>
+        <otriple>GMA_New_Media | product | World_Wide_Web</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>GMA_New_Media | location | GMA_Network_Center</mtriple>
+        <mtriple>GMA_New_Media | product | Online_Game</mtriple>
+        <mtriple>GMA_New_Media | location | Philippines</mtriple>
+        <mtriple>GMA_New_Media | product | World_Wide_Web</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">GMA New Media is located in the GMA Network Center in the Philippines. Their main product is online games but they also produce web services.</lex>
+    </entry>
+    <entry category="Politician" eid="Id60" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Abraham_A._Ribicoff | spouse | "Ruth Ribicoff"@en</otriple>
+        <otriple>Abraham_A._Ribicoff | president | John_F._Kennedy</otriple>
+        <otriple>Abraham_A._Ribicoff | nationality | "American"@en</otriple>
+        <otriple>Abraham_A._Ribicoff | deathPlace | United_States</otriple>
+        <otriple>Abraham_A._Ribicoff | birthPlace | ","@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abraham_A._Ribicoff | spouse | "Ruth Ribicoff"</mtriple>
+        <mtriple>Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy</mtriple>
+        <mtriple>Abraham_A._Ribicoff | nationality | American</mtriple>
+        <mtriple>Abraham_A._Ribicoff | deathPlace | United_States</mtriple>
+        <mtriple>Abraham_A._Ribicoff | birthPlace | New_Britain,_Connecticut</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Abraham A. Ribicoff was born in New Britain, Connecticut and was a US citizen. He was married to Ruth Ribicoff and was in office at the same time as the presidency of John F. Kennedy. He died in the United States.</lex>
+    </entry>
+    <entry category="Company" eid="Id61" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>Hypermarcas | location | Brazil</otriple>
+        <otriple>Hypermarcas | keyPerson | CEO</otriple>
+        <otriple>Hypermarcas | foundingYear | 2001-01-01</otriple>
+        <otriple>Hypermarcas | type | S.A._(corporation)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Hypermarcas | location | Brazil</mtriple>
+        <mtriple>Hypermarcas | keyPerson | CEO</mtriple>
+        <mtriple>Hypermarcas | foundingDate | 2001-01-01</mtriple>
+        <mtriple>Hypermarcas | type | S.A._(corporation)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Hypermarcas, founded on January 1, 2001, is located in Brazil. Hypermarcas is a type of S.A, and is managed by their CEO.</lex>
+    </entry>
+    <entry category="Athlete" eid="Id62" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Aleksandr_Prudnikov | dateOfBirth | "1989-02-24"^^xsd:date</otriple>
+        <otriple>Aleksandr_Prudnikov | youthclubs | FC_Spartak_Moscow</otriple>
+        <otriple>Aleksandr_Prudnikov | team | FC_Terek_Grozny</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aleksandr_Prudnikov | dateOfBirth | "1989-02-24"^^xsd:date</otriple>
+        <otriple>Aleksandr_Prudnikov | youthclubs | FC_Spartak_Moscow</otriple>
+        <otriple>Aleksandr_Prudnikov | clubs | "→ Terek Grozny"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aleksandr_Prudnikov | birthDate | 1989-02-24</mtriple>
+        <mtriple>Aleksandr_Prudnikov | youthclub | FC_Spartak_Moscow</mtriple>
+        <mtriple>Aleksandr_Prudnikov | club | FC_Terek_Grozny</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Aleksandr Prudnikov was born on the 24th February 1989.He is a member of the youth side of FC Spartak Moscow and is the FC Terek Grozny club.</lex>
+    </entry>
+    <entry category="City" eid="Id63" shape="(X (X) (X) (X) (X) (X) (X))" shape_type="sibling" size="6">
+      <originaltripleset>
+        <otriple>Ciudad_Ayala | populationMetro | 1777539</otriple>
+        <otriple>Ciudad_Ayala | leaderTitle | City Manager</otriple>
+        <otriple>Ciudad_Ayala | type | City</otriple>
+        <otriple>Ciudad_Ayala | populationDensity | 1604.0</otriple>
+        <otriple>Ciudad_Ayala | governmentType | Council-manager_government</otriple>
+        <otriple>Ciudad_Ayala | country | Mexico</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ciudad_Ayala | populationMetro | 1777539</mtriple>
+        <mtriple>Ciudad_Ayala | leaderTitle | "City Manager"</mtriple>
+        <mtriple>Ciudad_Ayala | type | City</mtriple>
+        <mtriple>Ciudad_Ayala | populationDensity | 1604.0</mtriple>
+        <mtriple>Ciudad_Ayala | governmentType | Council-manager_government</mtriple>
+        <mtriple>Ciudad_Ayala | country | Mexico</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Ciudad Ayala is a city, in Mexico. Its population in the metropolitan area is 1777539 and the population density is 1604. The goverment type is council-manager and its leader title is city manager.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id64" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Brandon_Carter | field | General_relativity</otriple>
+        <otriple>Brandon_Carter | doctoralAdvisor | Dennis_William_Sciama</otriple>
+        <otriple>Brandon_Carter | birthPlace | England</otriple>
+        <otriple>Brandon_Carter | birthDate | 1942-01-01</otriple>
+        <otriple>Brandon_Carter | almaMater | University_of_Cambridge</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Brandon_Carter | professionalField | General_relativity</mtriple>
+        <mtriple>Brandon_Carter | doctoralAdvisor | Dennis_William_Sciama</mtriple>
+        <mtriple>Brandon_Carter | birthPlace | England</mtriple>
+        <mtriple>Brandon_Carter | birthDate | 1942-01-01</mtriple>
+        <mtriple>Brandon_Carter | almaMater | University_of_Cambridge</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Brandon Carter whose alma mater is the University of Cambridge, born in England on the date 01-01-1942, is a professional in the field of general relativity and had Dennis William Sciama as his doctoral advisor.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id65" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Olga_Bondareva | deathPlace | Saint_Petersburg</otriple>
+        <otriple>Olga_Bondareva | birthPlace | Leningrad,_USSR</otriple>
+        <otriple>Olga_Bondareva | birthDate | 1937-04-27</otriple>
+        <otriple>Olga_Bondareva | knownFor | Bondareva–Shapley_theorem</otriple>
+        <otriple>Olga_Bondareva | birthName | Olga Nikolaevna Bondareva</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Olga_Bondareva | deathPlace | Saint_Petersburg,_USSR</otriple>
+        <otriple>Olga_Bondareva | birthPlace | Leningrad,_USSR</otriple>
+        <otriple>Olga_Bondareva | birthDate | 1937-04-27</otriple>
+        <otriple>Olga_Bondareva | knownFor | Bondareva–Shapley_theorem</otriple>
+        <otriple>Olga_Bondareva | birthName | Olga Nikolaevna Bondareva</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Olga_Bondareva | deathPlace | Saint_Petersburg</mtriple>
+        <mtriple>Olga_Bondareva | birthPlace | Leningrad,_USSR</mtriple>
+        <mtriple>Olga_Bondareva | birthDate | 1937-04-27</mtriple>
+        <mtriple>Olga_Bondareva | knownFor | Bondareva–Shapley_theorem</mtriple>
+        <mtriple>Olga_Bondareva | birthName | "Olga Nikolaevna Bondareva"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Olga Bondareva was born Olga Nikolaevna Bondareva on April 27, 1937, in Leningrad, USSR. She was known for the Bondareva-Shapley theorem and died in Saint Petersburg.</lex>
+    </entry>
+    <entry category="ComicsCharacter" eid="Id66" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Bananaman | network | "STV"@en</otriple>
+        <otriple>Bananaman | firstAired | "1983-10-03"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bananaman | broadcastedBy | "STV"</mtriple>
+        <mtriple>Bananaman | firstAired | "1983-10-03"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bananaman, first aired on 3rd October 1983, is broadcasted by STV.</lex>
+    </entry>
+    <entry category="Film" eid="Id67" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Death_on_a_Factory_Farm | director | Tom_Simon</otriple>
+        <otriple>Death_on_a_Factory_Farm | composer | Jamie_Lawrence</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Death_on_a_Factory_Farm | director | Tom_Simon</mtriple>
+        <mtriple>Death_on_a_Factory_Farm | musicComposer | Jamie_Lawrence</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Jamie Lawrence composed music for the movie "Death on a Factory Farm" which was directed by Tom Simon.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id68" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Expect_a_Miracle | producer | Brian_Kelly_(composer_&amp;_pianist)</otriple>
+        <otriple>Expect_a_Miracle | genre | Instrumental_music</otriple>
+        <otriple>Expect_a_Miracle | genre | Easy_listening</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Expect_a_Miracle | producer | Brian_Kelly_(composer_&amp;_pianist)</mtriple>
+        <mtriple>Expect_a_Miracle | genre | Instrumental_music</mtriple>
+        <mtriple>Expect_a_Miracle | genre | Easy_listening</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Expect a Miracle, an easy listening album in the instrumental music genre, is produced by Brian Kelly.</lex>
+    </entry>
+    <entry category="CelestialBody" eid="Id69" shape="(X (X) (X) (X) (X) (X) (X))" shape_type="sibling" size="6">
+      <originaltripleset>
+        <otriple>1147_Stavropolis | apoapsis | 418476000000.0</otriple>
+        <otriple>1147_Stavropolis | orbitalPeriod | 1249.6</otriple>
+        <otriple>1147_Stavropolis | discoverer | Grigory_Neujmin</otriple>
+        <otriple>1147_Stavropolis | absoluteMagnitude | 11.5</otriple>
+        <otriple>1147_Stavropolis | discovered | 1929-06-11</otriple>
+        <otriple>1147_Stavropolis | rotationPeriod | 20378.5</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1147_Stavropolis | apoapsis | 418476000000.0</mtriple>
+        <mtriple>1147_Stavropolis | orbitalPeriod | 1249.6</mtriple>
+        <mtriple>1147_Stavropolis | discoverer | Grigory_Neujmin</mtriple>
+        <mtriple>1147_Stavropolis | absoluteMagnitude | 11.5</mtriple>
+        <mtriple>1147_Stavropolis | discovered | 1929-06-11</mtriple>
+        <mtriple>1147_Stavropolis | rotationPeriod | 20378.5</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">1147 Stavropolis asteroid was discovered by Grigory Neujmin on the 11 of June 1929. It has a rotation period of 20378.5, the orbital period is 1249.6 days, its apoapsis is 418476000000.0, has a rotation period of 20378.5 and the absolute magnitude is 11.5.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id70" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Alan_Shepard | birthDate | "1923-11-18"^^xsd:date</otriple>
+        <otriple>Alan_Shepard | nationality | United_States</otriple>
+        <otriple>Alan_Shepard | deathPlace | California</otriple>
+        <otriple>Alan_Shepard | birthPlace | New_Hampshire</otriple>
+        <otriple>Alan_Shepard | occupation | Test_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | birthDate | "1923-11-18"</mtriple>
+        <mtriple>Alan_Shepard | nationality | United_States</mtriple>
+        <mtriple>Alan_Shepard | deathPlace | California</mtriple>
+        <mtriple>Alan_Shepard | birthPlace | New_Hampshire</mtriple>
+        <mtriple>Alan_Shepard | occupation | Test_pilot</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Alan Shepard was an American test pilot who was born in New Hampshire in November of 1923. He died in California.</lex>
+    </entry>
+    <entry category="Film" eid="Id71" shape="(X (X) (X) (X) (X) (X) (X))" shape_type="sibling" size="6">
+      <originaltripleset>
+        <otriple>McVeagh_of_the_South_Seas | imdbId | 0004319</otriple>
+        <otriple>McVeagh_of_the_South_Seas | director | Cyril_Bruce</otriple>
+        <otriple>McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)</otriple>
+        <otriple>McVeagh_of_the_South_Seas | starring | Harry_Carey_(actor_born_1878)</otriple>
+        <otriple>McVeagh_of_the_South_Seas | writer | Harry_Carey_(actor_born_1878)</otriple>
+        <otriple>McVeagh_of_the_South_Seas | producer | The_Progressive_Motion_Picture_Company</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>McVeagh_of_the_South_Seas | imdbId | 0004319</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | director | Cyril_Bruce</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | starring | Harry_Carey_(actor_born_1878)</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | writer | Harry_Carey_(actor_born_1878)</mtriple>
+        <mtriple>McVeagh_of_the_South_Seas | producer | The_Progressive_Motion_Picture_Company</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">McVeagh of the South Seas is a film registered in IMDb with ID 0004319. It was directed by Cyril Bruce and Harry Carey. Harry Carey also served as the film writer and starred in the film. McVeagh of the South Seas was produced by Progressive Motion Picture Company.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id72" shape="(X (X (X)))" shape_type="chain" size="2">
+      <originaltripleset>
+        <otriple>Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)</otriple>
+        <otriple>The_Honeymoon_Killers_(American_band) | associatedMusicalArtist | Pussy_Galore_(band)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)</mtriple>
+        <mtriple>The_Honeymoon_Killers_(American_band) | associatedBand/associatedMusicalArtist | Pussy_Galore_(band)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Honeymoon Killers, whose album was titled ‘Turn Me On’ are also associated with the band Pussy Galore.</lex>
+    </entry>
+    <entry category="Artist" eid="Id73" shape="(X (X) (X) (X))" shape_type="sibling" size="3">
+      <originaltripleset>
+        <otriple>Liselotte_Grschebina | deathDate | 1994-06-14</otriple>
+        <otriple>Liselotte_Grschebina | deathPlace | Israel</otriple>
+        <otriple>Liselotte_Grschebina | nationality | Israel</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Liselotte_Grschebina | deathDate | 1994-06-14</mtriple>
+        <mtriple>Liselotte_Grschebina | deathPlace | Israel</mtriple>
+        <mtriple>Liselotte_Grschebina | nationality | Israel</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Liselotte Grschebina's nationality is Israeli, and she died on June 14, 1994 in Israel.</lex>
+    </entry>
+    <entry category="Artist" eid="Id74" shape="(X (X) (X))" shape_type="sibling" size="2">
+      <originaltripleset>
+        <otriple>Liselotte_Grschebina | training | School_of_Applied_Arts_in_Stuttgart</otriple>
+        <otriple>Liselotte_Grschebina | field | Photographer</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Liselotte_Grschebina | training | School_of_Applied_Arts_in_Stuttgart</mtriple>
+        <mtriple>Liselotte_Grschebina | professionalField | Photographer</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Liselotte Grschebina, a professional photographer, did her studies at the School of Applied Arts in Stuttgart.</lex>
+    </entry>
+    <entry category="City" eid="Id75" shape="(X (X) (X) (X) (X) (X))" shape_type="sibling" size="5">
+      <originaltripleset>
+        <otriple>Ciudad_Ayala | populationMetro | 1777539</otriple>
+        <otriple>Ciudad_Ayala | leaderTitle | City Manager</otriple>
+        <otriple>Ciudad_Ayala | type | City</otriple>
+        <otriple>Ciudad_Ayala | populationDensity | 1604.0</otriple>
+        <otriple>Ciudad_Ayala | isPartOf | Morelos</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ciudad_Ayala | populationMetro | 1777539</mtriple>
+        <mtriple>Ciudad_Ayala | leaderTitle | "City Manager"</mtriple>
+        <mtriple>Ciudad_Ayala | type | City</mtriple>
+        <mtriple>Ciudad_Ayala | populationDensity | 1604.0</mtriple>
+        <mtriple>Ciudad_Ayala | isPartOf | Morelos</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Ciudad Ayala, a city, is a part of Morelos and one of the leaders is the City Manager. The population of the metropolitan area of Ciudad Ayala is 1,777,539 with population density of 1604.0.</lex>
+    </entry>
+    <entry category="Building" eid="Id76" shape="(X (X) (X) (X (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"@en</otriple>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+        <otriple>Mason_School_of_Business | country | United_States</otriple>
+        <otriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | address | "101 Ukrop Way"</mtriple>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+        <mtriple>Mason_School_of_Business | country | United_States</mtriple>
+        <mtriple>Alan_B._Miller_Hall | owner | College_of_William_&amp;_Mary</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Mason School of Business are the current tenants of Alan B Miller Hall, located at 101 Ukrop Way in the United States and owned by the College of William and Mary.</lex>
+    </entry>
+    <entry category="MeanOfTransportation" eid="Id77" shape="(X (X) (X) (X) (X (X)))" shape_type="mixed" size="5">
+      <originaltripleset>
+        <otriple>Pontiac_Rageous | productionStartYear | 1997-01-01</otriple>
+        <otriple>Pontiac_Rageous | assembly | Michigan</otriple>
+        <otriple>Pontiac_Rageous | assembly | Detroit</otriple>
+        <otriple>Pontiac_Rageous | productionEndYear | 1997-01-01</otriple>
+        <otriple>Detroit | type | City_(Michigan)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Pontiac_Rageous | productionStartYear | 1997</mtriple>
+        <mtriple>Pontiac_Rageous | assembly | Michigan</mtriple>
+        <mtriple>Pontiac_Rageous | assembly | Detroit</mtriple>
+        <mtriple>Pontiac_Rageous | productionEndYear | 1997</mtriple>
+        <mtriple>Detroit | type | City_(Michigan)</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">In the city of Detroit in the state of Michigan, the first and last Pontiac Rageous's produced were made on the assembly line in 1997.</lex>
+    </entry>
+    <entry category="Airport" eid="Id78" shape="(X (X) (X) (X) (X (X)))" shape_type="mixed" size="5">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | operator | ENAIRE</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</otriple>
+        <otriple>ENAIRE | locationCity | Madrid</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | "3499.71"^^xsd:double</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayDesignation | "14L/32R"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</mtriple>
+        <mtriple>ENAIRE | city | Madrid</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | "14L/32R"</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">The Adolfo Suarez Madrid-Barajas airport is operated by ENAIRE and is located in Alcobendas. Its runway name is 14L/32R, and its length is 3,500. ENAIRE is in the city of Madrid.</lex>
+    </entry>
+    <entry category="Airport" eid="Id79" shape="(X (X) (X) (X) (X (X)))" shape_type="mixed" size="5">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | operator | ENAIRE</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | "3499.71"^^xsd:double</otriple>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | elevation | "609.6"^^xsd:double</otriple>
+        <otriple>Alcobendas | country | Spain</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0</mtriple>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel | 610.0</mtriple>
+        <mtriple>Alcobendas | country | Spain</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Adolfo Suarez Madrid-Barajas Airport in Alcobendas, Spain, is operated by ENAIRE. The airport's runway length is 3500 and it has an elevation of 610 metres above sea level.</lex>
+    </entry>
+    <entry category="Scientist" eid="Id80" shape="(X (X) (X (X) (X)))" shape_type="mixed" size="4">
+      <originaltripleset>
+        <otriple>Lady_Anne_Monson | nationality | Kingdom_of_England</otriple>
+        <otriple>India | areaTotal | 3287591.04790256</otriple>
+        <otriple>Lady_Anne_Monson | residence | India</otriple>
+        <otriple>India | leaderTitle | Chief Justice</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lady_Anne_Monson | nationality | Kingdom_of_England</mtriple>
+        <mtriple>India | areaTotal | 3287590000000.0</mtriple>
+        <mtriple>Lady_Anne_Monson | residence | India</mtriple>
+        <mtriple>India | leaderTitle | Chief Justice</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Lady Anne Monson’s nationality is English but currently resides in India, whose total area is 3,287,590 km^2. One of the leaders of India is Chief Justice.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id81" shape="(X (X) (X) (X) (X))" shape_type="sibling" size="4">
+      <originaltripleset>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | artist | The_Velvet_Underground</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | producer | The_Velvet_Underground</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | runtime | 13803.0</otriple>
+        <otriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | recordedIn | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | artist | The_Velvet_Underground</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | producer | The_Velvet_Underground</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | runtime | 230.05</mtriple>
+        <mtriple>Bootleg_Series_Volume_1:_The_Quine_Tapes | recordedIn | United_States</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Bootleg Series Volume I: The Quine Tapes is an album released and produced by the Velvet Underground. It was recorded in the United States and runs 230:05 minutes long.</lex>
+    </entry>
+    <entry category="MusicalWork" eid="Id82" shape="(X (X) (X) (X) (X) (X) (X))" shape_type="sibling" size="6">
+      <originaltripleset>
+        <otriple>Turn_Me_On_(album) | runtime | 2106.0</otriple>
+        <otriple>Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)</otriple>
+        <otriple>Turn_Me_On_(album) | genre | Punk_blues</otriple>
+        <otriple>Turn_Me_On_(album) | producer | The_Honeymoon_Killers_(American_band)</otriple>
+        <otriple>Turn_Me_On_(album) | genre | Noise_rock</otriple>
+        <otriple>Turn_Me_On_(album) | previousWork | Let_It_Breed</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Turn_Me_On_(album) | runtime | 35.1</mtriple>
+        <mtriple>Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)</mtriple>
+        <mtriple>Turn_Me_On_(album) | genre | Punk_blues</mtriple>
+        <mtriple>Turn_Me_On_(album) | producer | The_Honeymoon_Killers_(American_band)</mtriple>
+        <mtriple>Turn_Me_On_(album) | genre | Noise_rock</mtriple>
+        <mtriple>Turn_Me_On_(album) | precededBy | Let_It_Breed</mtriple>
+      </modifiedtripleset>
+      <lex lang="en" lid="1">Turn Me On by the Honeymoon Killers is a punk blues album in the noise rock genre. The run time is 35.1 minutes and was preceded by the Let it Breed album.</lex>
+    </entry>
   </entries>
 </benchmark>

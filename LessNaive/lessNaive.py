@@ -51,8 +51,7 @@ def reconstruct_sentence_from_tokens(tokens):
 
     return reconstructed_sentence
 
-def do_relation_extraction(data):
-    ontology_relations = extract_specific_relations(ontology_file_path)
+def do_relation_extraction(data, ontology_relations):
     sentences = {}
     for f in data:
         for s in f["sentences"]:
@@ -72,7 +71,11 @@ def do_relation_extraction(data):
     format_output(tuples)
     return tuples
 
-if __name__ == "__main__":
-    do_relation_extraction(json.load(open("inputSentences.json")))   
+def main():
+    ontology_relations = extract_specific_relations(ontology_file_path)
+    do_relation_extraction(json.load(open("inputSentences.json")), ontology_relations)   
+    
 
+if __name__ == "__main__":
+    main()
 
