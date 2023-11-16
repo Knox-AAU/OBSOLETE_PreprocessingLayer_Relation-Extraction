@@ -78,11 +78,11 @@ def main():
             for triple in res:
                 if triple in expected_triples:
                     hits +=1
-            eta = ((datetime.datetime.now()-dt).total_seconds()/60)/((i+1)/len(input_objs))
-            progress_suffix = f"Complete. Timeusage: {(datetime.datetime.now()-dt).total_seconds()/60} minutes. Eta {eta} minutes."
+            eta = round((((datetime.datetime.now()-dt).total_seconds()/60)/((i+1)/len(input_objs)))*(1-((i+1)/len(input_objs))),5)
+            progress_suffix = f"Complete. Timeusage: {round((datetime.datetime.now()-dt).total_seconds()/60,5)} minutes. Eta {eta} minutes."
             printProgressBar(i + 1, len(input_objs), prefix = 'Progress:', suffix = progress_suffix, length = 50)
         
-        print(f"Solution {name} finished. Hit {hits}/{total_triples}. Hit percentage: {hits/total_triples}%")
+        print(f"Solution {name} finished. Hit {hits}/{total_triples}. Hit percentage: {(hits/total_triples)*100}%")
             
         
 
