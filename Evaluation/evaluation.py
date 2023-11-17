@@ -20,7 +20,7 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 3, 
 
 def convert_testdata_to_input_format():
     objs = []
-    tree = ET.parse('Evaluation/testdata.xml')
+    tree = ET.parse('Evaluation/testdataMini.xml')
     root = tree.getroot()
     expected_output = []
     for entry in root.findall('.//entry'):
@@ -37,6 +37,22 @@ def convert_testdata_to_input_format():
             "triples": triples
         })
     return objs
+
+def calculate_metrics(data):
+    TP = 0
+    FP = 0
+    FN = 0
+
+    for element in data["triples"]:
+        TP += element["contains_hits"]
+        FP += len(element["triples_from_solution"]) - element["contains_hits"]
+        FN += len(element["expected_triples"]) - element["contains_hits"]
+
+    precision = TP / (TP + FP) if (TP + FP) else 0
+    recall = TP / (TP + FN) if (TP + FN) else 0
+    F1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) else 0
+
+    return {"precision": precision, "recall": recall, "F1_score": F1}
 
 def main():
     input_objs = convert_testdata_to_input_format()
@@ -91,7 +107,8 @@ def main():
         print(f"Solution {name} finished. Hit {hits}/{total_triples}. Hit percentage: {(hits/total_triples)*100}%")
         evaluation_results[name] = {
             "triples": evaluation_result_triples,
-            "result": {"total_expected_triples": total_triples, "hits": hits, "hit_percentage": hits/total_triples}
+            "result": {"total_expected_triples": total_triples, "hits": hits, "hit_percentage": hits/total_triples},
+            "score": calculate_metrics({"triples": evaluation_result_triples})
         }
         
     with open("Evaluation/evaluation_results.json", "w") as f:

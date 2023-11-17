@@ -1,0 +1,129 @@
+{
+    "naive": {
+        "triples": [
+            {
+                "triples_from_solution": [
+                    [
+                        "35.1",
+                        "album",
+                        "Take It Off!"
+                    ]
+                ],
+                "expected_triples": [
+                    [
+                        "Turn Me On",
+                        "runtime",
+                        "35.1"
+                    ],
+                    [
+                        "Turn Me On",
+                        "producer",
+                        "Wharton Tiers"
+                    ],
+                    [
+                        "Turn Me On",
+                        "followedBy",
+                        "Take It Off!"
+                    ]
+                ],
+                "contains_hits": 0
+            },
+            {
+                "triples_from_solution": [
+                    [
+                        "Trane",
+                        "location",
+                        "Swords, Dublin"
+                    ]
+                ],
+                "expected_triples": [
+                    [
+                        "Trane",
+                        "location",
+                        "Swords, Dublin"
+                    ]
+                ],
+                "contains_hits": 1
+            },
+            {
+                "triples_from_solution": [
+                    [
+                        "\"City Manager\"",
+                        "part",
+                        "\u22126"
+                    ]
+                ],
+                "expected_triples": [
+                    [
+                        "Ciudad Ayala",
+                        "populationMetro",
+                        "1777539"
+                    ],
+                    [
+                        "Ciudad Ayala",
+                        "leaderTitle",
+                        "\"City Manager\""
+                    ],
+                    [
+                        "Ciudad Ayala",
+                        "type",
+                        "City"
+                    ],
+                    [
+                        "Ciudad Ayala",
+                        "populationDensity",
+                        "1604.0"
+                    ],
+                    [
+                        "Ciudad Ayala",
+                        "governmentType",
+                        "Council-manager government"
+                    ],
+                    [
+                        "Ciudad Ayala",
+                        "utcOffset",
+                        "\u22126"
+                    ],
+                    [
+                        "Ciudad Ayala",
+                        "isPartOf",
+                        "Morelos"
+                    ]
+                ],
+                "contains_hits": 0
+            },
+            {
+                "triples_from_solution": [
+                    [
+                        "17068.8",
+                        "lounge",
+                        "Diesel-electric transmission"
+                    ]
+                ],
+                "expected_triples": [
+                    [
+                        "ALCO RS-3",
+                        "powerType",
+                        "Diesel-electric transmission"
+                    ],
+                    [
+                        "ALCO RS-3",
+                        "length",
+                        "17068.8"
+                    ]
+                ],
+                "contains_hits": 0
+            }
+        ],
+        "result": {
+            "total_expected_triples": 13,
+            "hits": 1,
+            "hit_percentage": 0.07692307692307693
+        },
+        "score": {
+            "precision": 0.25,
+            "recall": 0.07692307692307693,
+            "F1_score": 0.11764705882352941
+        }
+    }
+}
