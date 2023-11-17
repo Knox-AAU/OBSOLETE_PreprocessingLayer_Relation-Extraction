@@ -5,6 +5,7 @@ from NaiveMVP.main import parse_data
 import re
 from getRel import extract_specific_relations
 import datetime
+import json
 
 ontology_file_path = 'DBpedia_Ont.ttl'
 
@@ -47,9 +48,10 @@ def main():
         #"less_naive": do_relation_extraction, 
         "naive": parse_data
     }
-    
+    evaluation_results = dict() #dictionary to hold results of tests
     for name, solution in solutions_to_test.items():
         print(f"Running solution {name}")
+        evaluation_result_triples = []
         total_triples = 0
         hits = 0
         dt = datetime.datetime.now()
@@ -75,15 +77,25 @@ def main():
             }]
             
             res = solution(input_obj, ontology_relations)
+            res_hits = 0
             for triple in res:
                 if triple in expected_triples:
+                    res_hits += 1
                     hits +=1
+
+            evaluation_result_triples.append({"triples_from_solution": res, "expected_triples": expected_triples, "contains_hits": res_hits})
             eta = round((((datetime.datetime.now()-dt).total_seconds()/60)/((i+1)/len(input_objs)))*(1-((i+1)/len(input_objs))),5)
             progress_suffix = f"Complete. Timeusage: {round((datetime.datetime.now()-dt).total_seconds()/60,5)} minutes. Eta {eta} minutes."
             printProgressBar(i + 1, len(input_objs), prefix = 'Progress:', suffix = progress_suffix, length = 50)
         
         print(f"Solution {name} finished. Hit {hits}/{total_triples}. Hit percentage: {(hits/total_triples)*100}%")
-            
+        evaluation_results[name] = {
+            "triples": evaluation_result_triples,
+            "result": {"total_expected_triples": total_triples, "hits": hits, "hit_percentage": hits/total_triples}
+        }
+        
+    with open("Evaluation/evaluation_results.json", "w") as f:
+        json.dump(evaluation_results, f, indent=4)
         
 
 
