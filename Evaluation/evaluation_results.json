@@ -2,11 +2,12 @@
     "naive": {
         "triples": [
             {
+                "sentence": "Turn Me On is a 35.1 minute long album produced by Wharton Tiers that was followed by the album entitled Take it Off.",
                 "triples_from_solution": [
                     [
-                        "35.1",
+                        "Turn Me On",
                         "album",
-                        "Take It Off!"
+                        "35.1"
                     ]
                 ],
                 "expected_triples": [
@@ -29,6 +30,7 @@
                 "contains_hits": 0
             },
             {
+                "sentence": "The location of Trane is Swords, Dublin.",
                 "triples_from_solution": [
                     [
                         "Trane",
@@ -46,11 +48,12 @@
                 "contains_hits": 1
             },
             {
+                "sentence": "The Ciudad Ayala city, a part of Morelos with population density and population of 1604.0 and 1,777,539 respectively, has a UTC offset of -6. The government type of Ciudad Ayala is council-manager government and City Manager is one of the leaders.",
                 "triples_from_solution": [
                     [
-                        "\"City Manager\"",
+                        "Ciudad Ayala",
                         "part",
-                        "\u22126"
+                        "1777539"
                     ]
                 ],
                 "expected_triples": [
@@ -93,9 +96,10 @@
                 "contains_hits": 0
             },
             {
+                "sentence": "The 17068.8 millimeter long ALCO RS-3 has a diesel-electric transmission.",
                 "triples_from_solution": [
                     [
-                        "17068.8",
+                        "ALCO RS-3",
                         "lounge",
                         "Diesel-electric transmission"
                     ]

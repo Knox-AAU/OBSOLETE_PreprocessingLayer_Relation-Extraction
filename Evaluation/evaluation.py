@@ -22,10 +22,8 @@ def convert_testdata_to_input_format():
     objs = []
     tree = ET.parse('Evaluation/testdataMini.xml')
     root = tree.getroot()
-    expected_output = []
     for entry in root.findall('.//entry'):
         sentence = entry.findall('lex')[0].text
-        ems = set()
         triples = []
         for otriple in entry.findall("modifiedtripleset/mtriple"):
             triple_string = re.sub(r'\([^)]*\)', '', otriple.text.replace("_", " "))
@@ -76,10 +74,12 @@ def main():
             sentence = obj["sentence"]
             expected_triples = obj["triples"]
             total_triples += len(expected_triples)
-            ems = set()
+            ems = []
             for triple in expected_triples:
-                ems.add(triple[0])
-                ems.add(triple[2])
+                ems.append(triple[0])
+                ems.append(triple[2])
+            
+            ems = list(dict.fromkeys(ems)) #remove duplicate ems
 
             entity_mentions = [{ "name": em, "startIndex": 0, "endIndex": 0 } for em in ems]    
             input_obj = [{
@@ -99,7 +99,7 @@ def main():
                     res_hits += 1
                     hits +=1
 
-            evaluation_result_triples.append({"triples_from_solution": res, "expected_triples": expected_triples, "contains_hits": res_hits})
+            evaluation_result_triples.append({"sentence":sentence, "triples_from_solution": res, "expected_triples": expected_triples, "contains_hits": res_hits})
             eta = round((((datetime.datetime.now()-dt).total_seconds()/60)/((i+1)/len(input_objs)))*(1-((i+1)/len(input_objs))),5)
             progress_suffix = f"Complete. Timeusage: {round((datetime.datetime.now()-dt).total_seconds()/60,5)} minutes. Eta {eta} minutes."
             printProgressBar(i + 1, len(input_objs), prefix = 'Progress:', suffix = progress_suffix, length = 50)
