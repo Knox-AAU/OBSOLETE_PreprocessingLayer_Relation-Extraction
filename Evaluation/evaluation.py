@@ -20,7 +20,7 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 3, 
 
 def convert_testdata_to_input_format():
     objs = []
-    tree = ET.parse('Evaluation/testdataMini.xml')
+    tree = ET.parse('Evaluation/testdata.xml')
     root = tree.getroot()
     for entry in root.findall('.//entry'):
         sentence = entry.findall('lex')[0].text
